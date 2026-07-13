@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import AddCars from './components/addCars'
 import ViewCars from './components/ViewCars'
+import Nav from './components/Nav'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
         <AddCars />
         <ViewCars />
+        <Nav />
     </>
   )
 }
